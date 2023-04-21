@@ -1,0 +1,83 @@
+@media only screen and (max-width: 1336px){
+    .nav-list{
+      width: 40%;
+      flex-direction: column;
+       padding-left: 20%; 
+    }
+    .navbar{
+      flex-direction: column;
+    }
+    .rightnav{
+      /* width: 100%; */
+      text-align: left;
+      /* padding-right: 110%;  isko nhi karege kuki jo area hai nav list ka vo km hai isiliye ye nhi karenge  text align center kr dege ho gaya */
+    }
+    .logo{
+      padding-left: 10%;
+    }
+    #search{
+      width: 100%;
+    }
+    .background{
+      padding-left: 20%;
+      width: 50%;
+      flex-direction: column;
+       height: 50%; 
+    }
+    .background{
+      flex-direction: column-reverse; 
+    }
+    .box-main{
+      flex-direction: column-reverse;
+      max-width: 100%;
+    }
+    .box-main .background{
+      text-align: center;
+      max-width: 100%;
+    }
+    .textbig{
+      text-align: center;
+      max-width: 100%;
+    }
+    .textsmall{
+      text-align: center;
+    }
+    .thought{
+      text-align: center;
+    }
+       #nmae{
+        text-align: center;
+       }
+       .navbar{
+        position: inherit;
+       }
+       .sectag{
+        flex-direction: column;
+       }
+       .shiva{
+        flex-direction: column;
+       }
+       .secright{
+        flex-direction: column-reverse;
+       }
+       .section{
+        flex-direction: column-reverse;
+       }
+       .thumb{
+        flex-direction: row-reverse;
+        
+       }
+
+
+
+       @media (max-width:500px) {
+        .footer-menu ul{
+          display: flex;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+        }
+        
+       
+  }
+  
